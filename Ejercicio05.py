@@ -4,9 +4,9 @@
 #y muestre por pantalla el grupo que le corresponde.
 Nombre = input('¿Cual es tu nombre? ')
 Sexo = input('¿Cual es género (M o H)? ')
-if Sexo == 'M':
+if Sexo == 'M':                     #Se ponen '' para elegir un dato
     if Nombre.lower() < 'M':
-            Casa = 'Gryffindor'
+            Casa = 'Gryffindor'     #Se guarda el dato entre ''.
     else:
             Casa = 'Slytheryn'
 else:
