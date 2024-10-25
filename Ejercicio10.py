@@ -3,7 +3,8 @@
 Contraseña = 'Programacion'
 while True:
     Contra = input('Dime tu contraseña ')
-    if Contra ==Contraseña:
+    if Contra == Contraseña:
         print('Contraseña Correcta')
+        break
     if Contra != Contraseña:
         print('Contraseña incorrecta ')
