@@ -7,6 +7,6 @@ que tenga tantas líneas como el número introducido, como el triángulo de más
 '''
 x = int(input('Dime un número entero '))
 for i in range(1, x + 1, 2):
-    for b in range(i, 0, -2):
+    for b in range(i, 0, -2):   #empieza en i, acaba en 0 y resta 2
         print(b, end=' ')
     print('')
